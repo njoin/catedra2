@@ -9,13 +9,6 @@ App::uses('AppModel', 'Model');
 class Reward extends AppModel {
 
 /**
- * Display field
- *
- * @var string
- */
-	public $displayField = 'id';
-
-/**
  * Validation rules
  *
  * @var array
@@ -51,7 +44,7 @@ class Reward extends AppModel {
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
 		),
-		'max_allowed' => array(
+		'mas_allowed' => array(
 			'numeric' => array(
 				'rule' => array('numeric'),
 				//'message' => 'Your custom message here',
