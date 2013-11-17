@@ -5,7 +5,7 @@
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('project_id'); ?></th>
 			<th><?php echo $this->Paginator->sort('description'); ?></th>
-			<th><?php echo $this->Paginator->sort('max_allowed'); ?></th>
+			<th><?php echo $this->Paginator->sort('mas_allowed'); ?></th>
 			<th><?php echo $this->Paginator->sort('amount'); ?></th>
 			<th><?php echo $this->Paginator->sort('order'); ?></th>
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
@@ -19,7 +19,7 @@
 			<?php echo $this->Html->link($reward['Project']['name'], array('controller' => 'projects', 'action' => 'view', $reward['Project']['id'])); ?>
 		</td>
 		<td><?php echo h($reward['Reward']['description']); ?>&nbsp;</td>
-		<td><?php echo h($reward['Reward']['max_allowed']); ?>&nbsp;</td>
+		<td><?php echo h($reward['Reward']['mas_allowed']); ?>&nbsp;</td>
 		<td><?php echo h($reward['Reward']['amount']); ?>&nbsp;</td>
 		<td><?php echo h($reward['Reward']['order']); ?>&nbsp;</td>
 		<td><?php echo h($reward['Reward']['created']); ?>&nbsp;</td>

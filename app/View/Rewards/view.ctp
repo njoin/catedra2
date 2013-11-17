@@ -16,9 +16,9 @@
 			<?php echo h($reward['Reward']['description']); ?>
 			&nbsp;
 		</dd>
-		<dt><?php echo __('Max Allowed'); ?></dt>
+		<dt><?php echo __('Mas Allowed'); ?></dt>
 		<dd>
-			<?php echo h($reward['Reward']['max_allowed']); ?>
+			<?php echo h($reward['Reward']['mas_allowed']); ?>
 			&nbsp;
 		</dd>
 		<dt><?php echo __('Amount'); ?></dt>
